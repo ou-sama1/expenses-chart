@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Expenses chart component</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="container">
+    <div class="card-header">
+      <div class="myBalance">
+        <h2>My balance</h2>
+        <span>$921.48</span>
+      </div>
+      <div class="logo">
+        <div id="outlined-circle"></div>
+        <div id="filled-circle"></div>
+      </div>
+    </div>
+  
+    <div class="card-body">
+      <h1>Spending - Last 7 days</h1>
+  
+      <div class="chart">
+        <div class="days" id="mon"><div class="axis"></div><span>mon</span></div>
+        <div class="days" id="tue"><div class="axis"></div><span>tue</span></div>
+        <div class="days" id="wed"><div class="axis"></div><span>wed</span></div>
+        <div class="days" id="thu"><div class="axis"></div><span>thu</span></div>
+        <div class="days" id="fri"><div class="axis"></div><span>fri</span></div>
+        <div class="days" id="sat"><div class="axis"></div><span>sat</span></div>
+        <div class="days" id="sun"><div class="axis"></div><span>sun</span></div>
+      </div>
+  
+      <hr>
+  
+      <div class="total-percentage">
+        <div class="total">
+          <h2>Total this month</h2>
+          <span>$478.33</span>
+        </div>
+  
+        <div class="percentage">
+          <span>+2.4%</span>
+          <h2>from last month</h2>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Oussama</a>.
+  </div>
+
+
+  <script src="index.js"></script>
+</body>
+</html>
